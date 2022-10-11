@@ -8,6 +8,8 @@ const Option = ({ option, correctAnswer }) => {
     } else {
       toast.error("Wrong Answer", { autoClose: 500 });
     }
+
+    // checked="checked"
   }
 
   return (

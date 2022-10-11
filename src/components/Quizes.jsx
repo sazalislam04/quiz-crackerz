@@ -11,7 +11,7 @@ const Quizes = () => {
         <h2 className="text-4xl  text-center font-medium text-blue-500">
           Quiz of {name}
         </h2>
-        <div className="w-9/12 mx-auto py-8">
+        <div className="w-full lg:w-9/12 mx-auto py-8">
           {questions.map((questions, index) => (
             <Questions key={questions.id} questions={questions} index={index} />
           ))}

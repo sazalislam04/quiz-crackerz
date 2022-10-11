@@ -13,7 +13,10 @@ const Questions = ({ questions, index }) => {
           <h1 className="text-3xl text-gray-800 mb-2">Quiz {index + 1}</h1>
           <span onClick={() => setOpen(!open)}>
             {open ? (
-              <div>{correctAnswer}</div>
+              <div className="text-2xl">
+                Correct Answer Is:{" "}
+                <span className="text-red-500">{correctAnswer}</span>
+              </div>
             ) : (
               <EyeIcon className="w-6 h-6" />
             )}
