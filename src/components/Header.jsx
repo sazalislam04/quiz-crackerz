@@ -40,7 +40,7 @@ const Header = () => {
             </li>
             <li>
               <NavLink
-                to="/topics"
+                to="/topic"
                 className={`flex items-center ${({ isActive }) =>
                   isActive ? "active" : undefined}`}
               >
