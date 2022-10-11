@@ -1,7 +1,8 @@
 import { PlayIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { Link } from "react-router-dom";
 const Topic = ({ topic }) => {
-  const { name, logo } = topic;
+  const { name, logo, id } = topic;
   return (
     <div className="flex flex-col p-4 lg:p-6 space-y-6 overflow-hidden rounded-md shadow-md bg-gray-100">
       <div>
@@ -16,15 +17,17 @@ const Topic = ({ topic }) => {
           <h2 className="text-xl font-medium">{name}</h2>
         </div>
         <div className="">
-          <button
-            type="button"
-            className="flex items-center px-4 py-1 rounded text-white bg-blue-500 text-xl"
-          >
-            Start Quiz
-            <span className="ml-1">
-              <PlayIcon className="h-6 w-6" />
-            </span>
-          </button>
+          <Link to={`/topic/${id}`}>
+            <button
+              type="button"
+              className="flex items-center px-4 py-1 rounded text-white bg-blue-500 text-xl"
+            >
+              Start Quiz
+              <span className="ml-1">
+                <PlayIcon className="h-6 w-6" />
+              </span>
+            </button>
+          </Link>
         </div>
       </div>
     </div>
