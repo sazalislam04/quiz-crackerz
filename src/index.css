@@ -35,3 +35,10 @@ body {
     width: 100%;
   }
 }
+.questions {
+  box-shadow: 0 0 15px rgb(0, 0, 0, 0.2);
+  margin-bottom: 28px;
+}
+.option {
+  box-shadow: 0 0 40px rgb(0, 0, 0, 0.1);
+}

@@ -2,7 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import Blog from "../components/Blog";
 import ErrorPage from "../components/ErrorPage";
 import Home from "../components/Home";
-import Quiz from "../components/Quiz";
+import Quizes from "../components/Quizes";
 import Root from "../components/Root";
 import Statistics from "../components/Statistics";
 import Topics from "../components/Topics";
@@ -39,7 +39,7 @@ export const router = createBrowserRouter([
           fetch(
             `https://openapi.programming-hero.com/api/quiz/${params.topicId}`
           ),
-        element: <Quiz />,
+        element: <Quizes />,
       },
     ],
   },

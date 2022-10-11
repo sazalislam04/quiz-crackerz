@@ -5,7 +5,6 @@ import header from "../assets/header.json";
 import Topic from "./Topic";
 const Home = () => {
   const topics = useLoaderData().data;
-  console.log(topics);
   return (
     <div className="py-6">
       <div className="container lg:gap-8 flex flex-col justify-center mx-auto p-6 lg:py-4 lg:flex-row lg:justify-between">
