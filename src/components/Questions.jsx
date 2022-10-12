@@ -17,16 +17,6 @@ const Questions = ({ questions, index }) => {
       <div className="py-3 mb-3">
         <div className="flex items-center justify-between cursor-pointer text-blue-500">
           <h1 className="text-3xl text-gray-800 mb-2">Quiz {index + 1}</h1>
-          {/* <span onClick={() => setOpen(!open)}>
-            {open ? (
-              <div className="text-2xl">
-                Correct Answer Is:
-                <span className="text-red-500 ml-2">{correctAnswer}</span>
-              </div>
-            ) : (
-              <EyeIcon className="w-6 h-6" />
-            )}
-          </span> */}
           <button onClick={onClickHandler}>
             {open ? (
               <EyeIcon className="w-6 h-6" />
