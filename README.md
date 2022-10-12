@@ -2,38 +2,17 @@
 
 An application used to Play Quiz based on user preference, built with
 
-### React, JavaScript, and Tailwind CSS.
+### React, React Router Dom v6.4, JavaScript, and Tailwind CSS.
 
 ### React Router Dom v6.4
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+React Router enables "client side routing".
 
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In traditional websites, the browser requests a document from a web server, downloads and evaluates CSS and JavaScript assets, and renders the HTML sent from the server. When the user clicks a link, it starts the process all over again for a new page
 
 ### `Live Link`
 
-Hosted in Netlify.\
- [running tests](https://stwist-quiz.netlify.app/)
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Hosted in Netlify. > [Smart Twist Quiz](https://stwist-quiz.netlify.app/)
 
 ## Installation and Setup Instructions
 

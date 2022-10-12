@@ -6,6 +6,18 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  background-color: #2564eb3a;
+  border-radius: 10px;
+  width: 0.67rem;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #2563eb;
+  border-radius: 10px;
+}
 .container {
   width: 1200px;
   max-width: 100%;
