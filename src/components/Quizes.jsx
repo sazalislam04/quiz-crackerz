@@ -8,7 +8,11 @@ const Quizes = () => {
   return (
     <div className="py-12">
       <div className="container">
-        <h2 className="text-4xl text-center font-medium text-blue-500">
+        <h2
+          className="text-4xl text-center font-medium text-blue-500"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           Quiz of {name}
         </h2>
         <div className="w-full lg:w-9/12 mx-auto py-8">

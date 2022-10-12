@@ -13,7 +13,7 @@ const Questions = ({ questions, index }) => {
   };
 
   return (
-    <div className="questions p-6">
+    <div className="questions p-6" data-aos="zoom-in" data-aos-duration="1000">
       <div className="py-3 mb-3">
         <div className="flex items-center justify-between cursor-pointer text-blue-500">
           <h1 className="text-3xl text-gray-800 mb-2">Quiz {index + 1}</h1>

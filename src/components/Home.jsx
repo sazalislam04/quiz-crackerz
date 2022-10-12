@@ -8,7 +8,11 @@ const Home = () => {
   return (
     <div className="py-6">
       <div className="container lg:gap-8 flex flex-col justify-center mx-auto p-6 lg:py-4 lg:flex-row lg:justify-between">
-        <div className="w-full flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left">
+        <div
+          className="w-full flex flex-col justify-center p-6 text-center rounded-sm lg:max-w-md xl:max-w-lg lg:text-left"
+          data-aos="fade-right"
+          data-aos-duration="1000"
+        >
           <h1 className="text-4xl lg:text-5xl font-semibold uppercase text-gray-800">
             <span className="text-blue-500">Quiz</span> yourself on Coding!
           </h1>
@@ -17,7 +21,11 @@ const Home = () => {
             interests and strengths best.
           </p>
         </div>
-        <div className="w-full lg:w-1/2 flex items-center justify-center p-6">
+        <div
+          className="w-full lg:w-1/2 flex items-center justify-center p-6"
+          data-aos="fade-left"
+          data-aos-duration="1500"
+        >
           <Lottie animationData={header} loop={true} />
         </div>
       </div>

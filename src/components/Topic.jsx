@@ -4,7 +4,11 @@ import { Link } from "react-router-dom";
 const Topic = ({ topic }) => {
   const { name, logo, id } = topic;
   return (
-    <div className="flex flex-col p-4 lg:p-6 space-y-6 overflow-hidden rounded-md shadow-md bg-gray-100">
+    <div
+      className="flex flex-col p-4 lg:p-6 space-y-6 overflow-hidden rounded-md shadow-md bg-gray-100"
+      data-aos="zoom-in"
+      data-aos-duration="1000"
+    >
       <div>
         <img
           src={logo}

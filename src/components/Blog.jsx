@@ -2,7 +2,7 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <section className="h-full">
+    <section className="h-full" data-aos="flip-right" data-aos-duration="1000">
       <div className="w-full lg:w-1/2 flex items-center justify-center p-6"></div>
       <div className="container flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
         <h2 className="text-2xl mb-6 font-semibold sm:text-4xl">
